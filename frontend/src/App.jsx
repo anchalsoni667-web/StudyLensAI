@@ -83,7 +83,7 @@ const [selectedTopic, setSelectedTopic] = useState("All Topics");
   }
 
   try {
-    const response = await fetch("http://localhost:5000/generate-notes", {
+    const response = await fetch("https://studylens-ai-backend-cnw9.onrender.com/generate-notes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
